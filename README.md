@@ -22,3 +22,16 @@ sudo cnpm i babel-loader --save
 sudo cnpm i vue --save
 sudo cnpm install babel-preset-es2015
 ```
+
+## 发布包
+```
+npm adduser
+```
+出现交互信息
+```
+npm whoami
+```
+修改package.json中的name为发布包的名字
+```
+npm publish
+```

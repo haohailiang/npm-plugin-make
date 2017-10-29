@@ -1,6 +1,6 @@
 {
-  "name": "npm-plugin-make",
-  "version": "1.0.0",
+  "name": "vue-toast-haohailiang",
+  "version": "1.0.1",
   "description": "npm插件的制作方法",
   "main": "index.js",
   "scripts": {
