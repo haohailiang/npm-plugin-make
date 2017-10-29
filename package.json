@@ -10,11 +10,27 @@
     "type": "git",
     "url": "git+https://github.com/haohailiang/npm-plugin-make.git"
   },
-  "keywords": ["toast", "vue-toast"],
+  "keywords": [
+    "toast",
+    "vue-toast"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/haohailiang/npm-plugin-make/issues"
   },
-  "homepage": "https://github.com/haohailiang/npm-plugin-make#readme"
+  "homepage": "https://github.com/haohailiang/npm-plugin-make#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.7",
+    "sass-loader": "^6.0.6",
+    "scss-loader": "^0.0.1",
+    "style-loader": "^0.19.0",
+    "vue": "^2.5.2",
+    "vue-loader": "^13.3.0",
+    "vue-template-compiler": "^2.5.2",
+    "webpack": "^3.8.1"
+  }
 }

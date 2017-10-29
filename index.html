@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="./node_modules/vue/dist/vue.js"></script>
+	<script src="./dist/vue-toast-haohailiang.js"></script>
+</head>
+<body>
+	<div id="app">
+		<a href="javascript:;" @click="toast">点击弹出Toast</a>
+	</div>
+	<script>
+		new Vue({
+			el:'#app',
+			methods:{
+				toast:function(){
+					this.$toast.show("你好, Toast");
+				}
+			}
+		})
+	</script>
+</body>
+</html>
